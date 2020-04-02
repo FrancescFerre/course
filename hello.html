@@ -15,5 +15,10 @@
 
       <h1 id="section1">Section one</h1>
       <h2 id="section2">Section two</h2>
+
+      <form action="{{ url_for('hello') }}" method="post">
+        <input type="text" name="name" placeholder="Enter Your Name">
+        <button>Submit</button>
+      </form>
   </body>
 </html>
